@@ -7,7 +7,7 @@ Mon deuxième est un mot désignant un élément de la nature qui est essentiel 
 Mon tout est un concept philosophique et mathématique, souvent considéré comme fondamental dans la logique et les sciences.
 mon dernier ne peut etre stocké que sur 8 bits + 1""")
 
-if st.input_text(label="enter the code") == os.environ["code"]:
+if st.text_input(label="enter the code") == os.environ["code"]:
   st.write("92006fa632c3777478a924d3f21cd9eb1a21e4164bdbfa90490c9e77c9ae22e0")
 else:
   st.write("try other things !")
