@@ -2,9 +2,7 @@ import streamlit as st
 import os
 
 st.write("""
-Mon premier est une lettre de l'alphabet, souvent associée à une question ou à une incertitude.
-Mon deuxième est un mot désignant un élément de la nature qui est essentiel à la vie, souvent associé à la transparence et à la fluidité.
-Mon tout est un concept philosophique et mathématique, souvent considéré comme fondamental dans la logique et les sciences.
+Je suis là, mais je ne suis pas visible, je peux être calculé mais jamais touché, dans les ombres de la mémoire, je garde un secret. Que suis-je ?
 mon dernier ne peut etre stocké que sur 8 bits + 1""")
 
 if st.text_input(label="enter the code") == os.environ["code"]:
